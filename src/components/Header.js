@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className=" absolute px-8 py-2 bg-gradient-to-b from from-blue-400 z-10">
+    <div className="absolute top-4 left-6 z-20">
       <img
-        className="w-45"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMd7l1Rd9lSwB6R58Hm9-sKK75ZG08ceD_5w&s"
-        alt="logo"
+        src="/logo_app.png"
+        alt="KStreamX Logo"
+        className="w-28 md:w-36 object-contain"
       />
     </div>
   );
